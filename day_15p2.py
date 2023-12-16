@@ -2,6 +2,7 @@ if __name__ == '__main__':
     f = open('input_15.txt', 'r').read().split(',')
 
     hashmap = {j: [] for j in range(256)}
+    
     for i in f:
         box_num = 0
         if '=' in i:
